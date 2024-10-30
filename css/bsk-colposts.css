@@ -1,0 +1,39 @@
+.bsk-colposts-container{
+	width: 100%;
+	margin:0 auto;
+}
+.bsk-colposts-post{
+	position: relative;
+	float: left;
+	width: 100%;
+	min-height: 300px;
+}
+.bsk-colposts-two-columns{
+	width: 50%;
+}
+.bsk-colposts-three-columns{
+	width: 33.33%;
+}
+.bsk-colposts-four-columns{
+	width: 25%;
+}
+.bsk-colposts-five-columns{
+	width: 20%;
+}
+.bsk-colposts-six-columns{
+	width: 16.6%;
+}
+
+.bsk-colposts-post-content{
+	padding-right:15px;
+}
+
+@media only screen and (max-width: 600px) {
+	.bsk-colposts-two-columns,
+	.bsk-colposts-three-columns,
+	.bsk-colposts-four-columns,
+	.bsk-colposts-five-columns,	
+	.bsk-colposts-six-columns{
+		width: 100%;
+	}
+}
